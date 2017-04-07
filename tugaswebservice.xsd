@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Bidang">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="alamatpenerima"/>
+                <xs:element ref="alamatpengirim"/>
+                <xs:element ref="email"/>
+                <xs:element ref="harga"/>
+                <xs:element ref="jeniskelamin"/>
+                <xs:element ref="jenispengiriman"/>
+                <xs:element ref="kode"/>
+                <xs:element ref="kontak"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="tanggal"/>
+            </xs:choice>
+            <xs:attribute name="jasa" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="alamatpenerima">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="alamat"/>
+            </xs:sequence>
+            <xs:attribute name="nama" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="alamat" type="xs:string"/>
+    <xs:element name="alamatpengirim">
+        <xs:complexType>
+            <xs:attribute name="nama" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="harga" type="xs:string"/>
+    <xs:element name="jeniskelamin" type="xs:NCName"/>
+    <xs:element name="jenispengiriman" type="xs:NCName"/>
+    <xs:element name="kode" type="xs:integer"/>
+    <xs:element name="kontak" type="xs:integer"/>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="tanggal" type="xs:NMTOKEN"/>
+</xs:schema>
