@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bidang jasa="POS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tugaswebservice.xsd">
+	<nama>Indah Rahmawati</nama>
+	<kode>1</kode>
+	<tanggal>01-04-2017</tanggal>
+	<jenispengiriman>yes</jenispengiriman>
+	<harga>RP: 300000</harga>
+	<jeniskelamin>perempuan</jeniskelamin>
+	<email>indahrahmawati6039@gmail.com</email>
+	<kontak>0856789508639</kontak>
+	<alamatpengirim nama="Surabaya"></alamatpengirim>
+	<alamatpenerima nama="Palembang">
+		<alamat>jl. sultan mahmudbadaruddin no.39</alamat>
+	</alamatpenerima>
+	
+	<nama>Hanna Tasya</nama>
+	<kode>2</kode>
+	<tanggal>09-04-2017</tanggal>
+	<jenispengiriman>ok</jenispengiriman>
+	<harga>RP: 500000</harga>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<email>hannaat@gmail.com</email>
+	<kontak>081289314565</kontak>
+	<alamatpengirim nama="Bandung"></alamatpengirim>
+	<alamatpenerima nama="Jakarta">
+		<alamat>jl. Mohammad Yamin no.12</alamat>
+	</alamatpenerima>
+	
+	<nama>Rafikatul Hikma</nama>
+	<kode>3</kode>
+	<tanggal>16-04-2017</tanggal>
+	<jenispengiriman>ok</jenispengiriman>
+	<harga>RP: 700000</harga>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<email>rafikatulhikma07@gmail.com</email>
+	<kontak>082345459091</kontak>
+	<alamatpengirim nama="Makassar"></alamatpengirim>
+	<alamatpenerima nama="Bandung">
+	<alamat>jl. Panjaitan no.15</alamat>
+	</alamatpenerima>
+	
+	<nama>Tiara Riski Wulansari</nama>
+	<kode>4</kode>
+	<tanggal>27-04-2017</tanggal>
+	<jenispengiriman>yes</jenispengiriman>
+	<harga>RP: 900000</harga>
+	<jeniskelamin>perempuan</jeniskelamin>
+	<email>aratiaraw@gmail.com</email>
+	<kontak>081255345170</kontak>
+	<alamatpengirim nama="Jakarta"></alamatpengirim>
+	<alamatpenerima nama="Yogyakarta">
+		<alamat>jl. Rambutan no.19</alamat>
+	</alamatpenerima>
+	
+	<nama>Diana Satima Gistivani</nama>
+	<kode>5</kode>
+	<tanggal>30-04-2017</tanggal>
+	<jenispengiriman>yes</jenispengiriman>
+	<harga>RP: 1000000</harga>
+	<jeniskelamin>perempuan</jeniskelamin>
+	<email>dianasatimaa@gmail.com</email>
+	<kontak>0857895430991</kontak>
+	<alamatpengirim nama="Pangandaran"></alamatpengirim>
+	<alamatpenerima nama="Bogor">
+		<alamat>jl. Kartini no.01</alamat>
+   </alamatpenerima>
+</Bidang>
