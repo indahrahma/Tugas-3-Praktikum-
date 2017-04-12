@@ -15,6 +15,8 @@ ANALISIS XML
 2.	Selanjutnya kode tag  <?xml version=”1.0” encoding=”UTF-8”?> merupakan tag penting atau jantung dari xml,yang merupakan sebuah intruksi proses khusus untuk mengelola xml.Maka apabila kita ingin membuat sebuat xml maka perintah tersebut harus ada,apabila tidak maka script tersebut tidak bisa di compile menjadi xml. Dan harus diawali dengan tanda  <?....?>
 3.	Pada kode xml memiliki 1 element.Yaitu element sendiri merupakan nama teknis untuk teg yang berpasangan yang dimulai dari tag pembuka dan tag penutup pada dokumen xml.Contoh
 a.	Element atau class dalam OOP yang dimiliki kode tersebut ada <cabang >…</cabang> dan element tersebut mempunyai 2 sub element yaitu <olahraga >…</olahraga >.Dan didalam sub tersebut mempunyai 3 data  yaitu <basket>…</basket> , <volley>…</volly> , <tennis>… </tennis>
+
+
 ANALISIS DTD 
 1.	Kode tag <?xml version=”1.0” encoding=”UTF-8”?> merupakan tag penting atau jantung dari xml,yang merupakan sebuah intruksi proses khusus untuk mengelola xml.Maka apabila kita ingin membuat sebuat xml maka perintah tersebut harus ada,apabila tidak maka script tersebut tidak bisa di compile menjadi xml. Dan harus diawali dengan tanda  <?....?>
 2.	<!DOCTYPE address [ - Deklarasi DOCTYPE memiliki tanda seru (!) pada awal nama element. DOCTYPE menginformasikan parser yang DTD kaitkan dengan doumen xml .
